@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    height: 2005px;
+    grid-template-rows: 100px 1655px 250px;
+
+}
+
+header{
+    /* width: auto;
+    height: 100px; */
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(British_flag.jpg) ;
+    background-size: 150px;
+}
+
+/* header > div{
+    background-color: #3b3939;
+} */
+
+header > div > a{
+    color: black;
+    text-decoration: none;
+}
+
+.log{
+    width: 100px;
+    height: 100px;
+    
+}
+
+main{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    background-color: rgb(248, 208, 147);
+}
+
+.content_about_me{
+    display: grid;
+    grid-template-columns: 1fr 688px;
+    /* border: 5px solid; */
+    margin: 30px;
+}
+
+.image_first{
+    height: 471px;
+    width: 680px;
+    margin: 0;
+    /* object-fit: contain; */
+    border: 5px solid;
+}
+
+.text_about_me{
+    margin: 0 20px 0 0;
+    height: 471px;
+    width: 680px;
+}
+
+.content_about_lessons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0;
+    /* border: 5px solid; */
+    margin: 0 30px 30px 30px;
+}
+
+.text_about_lesson{
+    height: 450px;
+    width: 680px;
+    margin: 0 0 0 30px;
+}
+
+.imagegege{
+    height: 450px;
+    width: 680px;
+    margin: 0;
+    border: 5px solid;
+}
+
+.contetn_about_price{
+    display: grid;
+    grid-template-rows: 100px 500px;
+    /* border: 5px solid; */
+    margin: 0 30px 30px 30px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+}
+
+.price{
+    display: grid;
+    
+    grid-template-columns: repeat(4, 1fr);
+    /* column-gap: 100px; */
+    border: 5px solid;
+    border-top: 0px;
+}
+
+.p1, .p2, .p3, .p4{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    /* border-left: 5px solid; */
+    border-right: 5px solid;
+}
+
+.p4{
+    border-right: 0px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid;
+}
+
+.value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* color: white; */
+    background-color: rgb(34, 34, 34);
+}
+
+
+.contacts{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+
+
